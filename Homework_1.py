@@ -14,6 +14,7 @@ def fahrenheit2celsius(fahrenheit):
 tempF = float(input('Enter the temperature in degrees Fahrenheit: '))
 print('Temperature in degrees Celcius:', fahrenheit2celsius(tempF))
 
+# Void function - as it only displays text on the screen and doesn't return a value
 def what_to_wear(celsius):
     temp_range = (-10, 0, 10, 20)
     clothing = ('Puffy jacket', 'Scarf', 'Sweater', 'Light jacket', 'T-shirt')
